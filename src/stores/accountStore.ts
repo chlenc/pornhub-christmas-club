@@ -4,12 +4,6 @@ import { RootStore } from '@stores';
 import { SubStore } from './SubStore';
 
 import { getCurrentBrowser } from '@utils';
-import { DAPP_ASSET, NODE_URL } from '@stores/DappStore';
-
-const defaultApplicationAccount = {
-    votes: [],
-    balance: 0
-};
 
 interface IWavesKeeperAccount {
     address: string
@@ -25,20 +19,6 @@ interface IWavesKeeperAccount {
     }
 }
 
-interface IVote {
-    txId: string;
-    score: number;
-    assetId: string;
-    assetName: string;
-    sender: string;
-    timestamp: number;
-    createdAt: Date;
-}
-
-interface IApplicationAccount {
-    votes: IVote[]
-    balance: number
-}
 
 interface IKeeperError {
     code: string
@@ -48,21 +28,12 @@ interface IKeeperError {
 
 class AccountStore extends SubStore {
     @observable applicationNetwork: string = 'custom';
-    @observable applicationAccount: IApplicationAccount = defaultApplicationAccount;
     @observable wavesKeeperAccount?: IWavesKeeperAccount;
 
     @observable isWavesKeeperInitialized: boolean = false;
     @observable isWavesKeeperInstalled: boolean = false;
 
     @observable isApplicationAuthorizedInWavesKeeper: boolean = false;
-
-    @observable btcBalance: number | null = null;
-
-    // @action
-    updateBTCBalance = async (address: string) => {
-        const json = await (await fetch(`${NODE_URL}/assets/balance/${address}/${DAPP_ASSET}`)).json();
-        if (!json.error) this.btcBalance = json.balance;
-    };
 
     constructor(rootStore: RootStore) {
         super(rootStore);
@@ -103,13 +74,11 @@ class AccountStore extends SubStore {
 
     @action
     async updateWavesKeeper(publicState: any) {
-        this.updateBTCBalance(publicState.account.address);
         if (this.wavesKeeperAccount) {
             publicState.account
                 ? this.updateWavesKeeperAccount(publicState.account)
                 : this.resetWavesKeeperAccount();
             if (publicState.account && publicState.account.address) {
-                this.rootStore.dappStore.updateLoanDetails(publicState.account.address);
             }
         } else {
             this.wavesKeeperAccount = publicState.account;
@@ -163,7 +132,6 @@ class AccountStore extends SubStore {
         const resp = window['WavesKeeper'].publicState();
         const publicState = await resp;
         if (publicState.account && publicState.account.address) {
-            this.rootStore.dappStore.updateLoanDetails(publicState.account.address);
         }
         return resp;
     };

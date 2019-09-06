@@ -5,7 +5,6 @@ import { Provider as MobxProvider } from 'mobx-react';
 
 import { RootStore } from '@stores';
 
-import './styles';
 import App from '@components/App';
 
 const mobXStore = new RootStore();
