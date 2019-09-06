@@ -1,10 +1,10 @@
 {
-  "main.css": "/pornhub-christmas-club/static/css/main.257d4245.chunk.css",
-  "main.js": "/pornhub-christmas-club/static/js/main.30937b6f.chunk.js",
-  "runtime~main.js": "/pornhub-christmas-club/static/js/runtime~main.05b5ac1e.js",
-  "static/css/2.f8a7ed0e.chunk.css": "/pornhub-christmas-club/static/css/2.f8a7ed0e.chunk.css",
-  "static/js/2.68ee3330.chunk.js": "/pornhub-christmas-club/static/js/2.68ee3330.chunk.js",
-  "index.html": "/pornhub-christmas-club/index.html",
-  "precache-manifest.739b4ca8e5b08b554e7ea95b16dca421.js": "/pornhub-christmas-club/precache-manifest.739b4ca8e5b08b554e7ea95b16dca421.js",
-  "service-worker.js": "/pornhub-christmas-club/service-worker.js"
+  "main.css": "/true/static/css/main.257d4245.chunk.css",
+  "main.js": "/true/static/js/main.30937b6f.chunk.js",
+  "runtime~main.js": "/true/static/js/runtime~main.e97dc4f2.js",
+  "static/css/2.f8a7ed0e.chunk.css": "/true/static/css/2.f8a7ed0e.chunk.css",
+  "static/js/2.e9553f5d.chunk.js": "/true/static/js/2.e9553f5d.chunk.js",
+  "index.html": "/true/index.html",
+  "precache-manifest.a19fc52bd3abbbe0680e73f910e3daf1.js": "/true/precache-manifest.a19fc52bd3abbbe0680e73f910e3daf1.js",
+  "service-worker.js": "/true/service-worker.js"
 }
