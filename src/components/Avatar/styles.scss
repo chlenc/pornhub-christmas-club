@@ -1,0 +1,14 @@
+@import '../../styles/variables/colors';
+
+.avatar {
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+

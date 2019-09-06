@@ -1,0 +1,116 @@
+@mixin icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@mixin arrow-20-submit-400 {
+  @include icon;
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/icons/arrow-20-submit-400.svg");
+}
+@mixin arrow-white {
+  @include icon;
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/icons/arrow-white.svg");
+}
+
+@mixin bg {
+  @include icon;
+  width: 982px;
+  height: 129px;
+  background: url("../../assets/icons/bg.svg");
+}
+
+@mixin bitcoin-18 {
+  @include icon;
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/icons/bitcoin-18.svg");
+}
+
+@mixin dapps-48-submit-400-copy-2 {
+  @include icon;
+  width: 48px;
+  height: 48px;
+  background: url("../../assets/icons/dapps-48-submit-400-copy-2.svg");
+}
+
+@mixin days-48-submit-400-copy {
+  @include icon;
+  width: 48px;
+  height: 48px;
+  background: url("../../assets/icons/days-48-submit-400-copy.svg");
+}
+
+@mixin example-2-48-submit-400 {
+  @include icon;
+  width: 48px;
+  height: 48px;
+  background: url("../../assets/icons/example-2-48-submit-400.svg");
+}
+
+@mixin example-48-white {
+  @include icon;
+  width: 48px;
+  height: 48px;
+  background: url("../../assets/icons/example-48-white.svg");
+}
+
+@mixin help-22-submit-400 {
+  @include icon;
+  width: 22px;
+  height: 22px;
+  background: url("../../assets/icons/help-22-submit-400.svg");
+}
+
+@mixin illustration-wb {
+  @include icon;
+  width: 236px;
+  height: 130px;
+  background: url("../../assets/icons/illustration-wb.svg");
+}
+
+@mixin illustrations {
+  @include icon;
+  width: 947px;
+  height: 153px;
+  background: url("../../assets/icons/illustrations.svg");
+}
+
+@mixin login-32-white {
+  @include icon;
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/icons/login-32-white.svg");
+}
+
+@mixin logo {
+  @include icon;
+  width: 164px;
+  height: 28px;
+  background: url("../../assets/icons/logo.svg");
+}
+
+@mixin poweredbywaves-white-16 {
+  @include icon;
+  width: 124px;
+  height: 16px;
+  background: url("../../assets/icons/poweredbywaves-white-16.svg");
+}
+
+@mixin unlimited-48-submit-400 {
+  @include icon;
+  width: 48px;
+  height: 48px;
+  background: url("../../assets/icons/unlimited-48-submit-400.svg");
+}
+
+@mixin waves-18-submit-400 {
+  @include icon;
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/icons/waves-18-submit-400.svg");
+}

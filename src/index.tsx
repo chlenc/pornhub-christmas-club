@@ -1,10 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import * as React from 'react';
+import { render } from 'react-dom';
 
+import { Provider as MobxProvider } from 'mobx-react';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { RootStore } from '@stores';
 
-serviceWorker.unregister();
+import './styles';
+import App from '@components/App';
+
+const mobXStore = new RootStore();
+
+render(<MobxProvider {...mobXStore}><App/></MobxProvider>, document.getElementById('root'));

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="947" height="153" viewBox="0 0 947 153">
+    <defs>
+        <linearGradient id="a" x1="70.514%" x2="97.672%" y1="38.172%" y2="65.558%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#1A4AC8"/>
+        </linearGradient>
+        <linearGradient id="d" x1="0%" x2="92.124%" y1="35.38%" y2="64.574%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#3881E6"/>
+        </linearGradient>
+        <path id="c" d="M12.378 66.118l110.316 2.836 132.928 132.928-111.224-3.143z"/>
+        <linearGradient id="e" x1="70.514%" x2="97.672%" y1="39.778%" y2="63.446%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="f" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#1A4AC8"/>
+        </linearGradient>
+        <linearGradient id="h" x1="0%" x2="92.124%" y1="35.516%" y2="64.437%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#3881E6"/>
+        </linearGradient>
+        <path id="g" d="M10.22 56.084l92.96 2.038 111.6 111.6-93.47-2.548z"/>
+        <linearGradient id="i" x1="70.514%" x2="97.672%" y1="41.016%" y2="61.817%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="j" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#1A4AC8"/>
+        </linearGradient>
+        <linearGradient id="l" x1="0%" x2="92.124%" y1="35.541%" y2="64.413%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#3881E6"/>
+        </linearGradient>
+        <path id="k" d="M8.559 47.259l78.138 1.66 93.744 93.744-78.562-2.092z"/>
+        <linearGradient id="m" x1="70.514%" x2="97.672%" y1="35.149%" y2="69.535%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="n" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#1A4AC8"/>
+        </linearGradient>
+        <path id="o" d="M8.559 47.259l78.138 1.66 93.744 93.744-78.562-2.092z"/>
+        <linearGradient id="p" x1="70.514%" x2="97.672%" y1="34.808%" y2="69.983%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="q" x1="70.514%" x2="97.672%" y1="34.807%" y2="69.984%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="r" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#1A4AC8"/>
+        </linearGradient>
+        <linearGradient id="t" x1="0%" x2="92.124%" y1="35.579%" y2="64.375%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#3881E6"/>
+        </linearGradient>
+        <path id="s" d="M9.555 53.144l87.738 1.77 105.152 105.153-88.136-2.333z"/>
+        <linearGradient id="u" x1="70.514%" x2="97.672%" y1="39.211%" y2="64.191%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="v" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#1A4AC8"/>
+        </linearGradient>
+        <linearGradient id="x" x1="0%" x2="92.124%" y1="35.725%" y2="64.229%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#3881E6"/>
+        </linearGradient>
+        <path id="w" d="M8.318 47.573l78.116 1.26 93.248 93.248-78.733-1.877z"/>
+        <linearGradient id="y" x1="70.514%" x2="97.672%" y1="37.244%" y2="66.779%">
+            <stop offset="0%" stop-color="#318AF7"/>
+            <stop offset="100%" stop-color="#1652EC"/>
+        </linearGradient>
+        <linearGradient id="z" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A4AC8"/>
+            <stop offset="100%" stop-color="#1A4AC8"/>
+        </linearGradient>
+        <path id="A" d="M8.318 47.573l78.116 1.26 93.248 93.248-78.733-1.877z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-93 -96)">
+            <path fill="url(#a)" d="M80.01 96H268v186.904L235.375 301h-94.973L0 172.096z"/>
+            <path fill="url(#b)" d="M0 172h187v129H0z"/>
+            <use fill="url(#d)" transform="rotate(-45 134 134)" xlink:href="#c"/>
+        </g>
+        <g transform="translate(93 -36)">
+            <path fill="url(#e)" d="M67.173 81H225v157.056L216.665 241H99.603L0 144.944z"/>
+            <path fill="url(#f)" d="M0 145h157v96H0z"/>
+            <use fill="url(#h)" transform="rotate(-45 112.5 112.903)" xlink:href="#g"/>
+        </g>
+        <g transform="translate(249 11)">
+            <path fill="url(#i)" d="M56.425 68H189v126H76.87L0 121.817z"/>
+            <path fill="url(#j)" d="M0 122h132v72H0z"/>
+            <use fill="url(#l)" transform="rotate(-45 94.5 94.961)" xlink:href="#k"/>
+        </g>
+        <g transform="translate(360 -25)">
+            <path fill="url(#m)" d="M56.425 68H189v132.183L152.747 230h-42.209L0 121.817z"/>
+            <path fill="url(#n)" d="M0 122h132v108H0z"/>
+            <use fill="url(#l)" transform="rotate(-45 94.5 94.961)" xlink:href="#o"/>
+        </g>
+        <g transform="translate(488 -55)">
+            <path fill="url(#p)" d="M63.292 76.212H212v148.316L170.965 260h-45.16L0 137z"/>
+            <path fill="url(#q)" d="M63.974 76.21H211.784l.216.002v148.316L169.77 260H124.82L0 137z"/>
+            <path fill="url(#r)" d="M0 137h148v123H0z"/>
+            <use fill="url(#t)" transform="rotate(-45 106 106.606)" xlink:href="#s"/>
+        </g>
+        <g transform="translate(630)">
+            <path fill="url(#u)" d="M56.127 67.655H188v131.528L176.59 205H86.047L0 122z"/>
+            <path fill="url(#v)" d="M0 122h131v83H0z"/>
+            <use fill="url(#x)" transform="rotate(-45 94 94.827)" xlink:href="#w"/>
+        </g>
+        <g transform="translate(759 -12)">
+            <path fill="url(#y)" d="M56.127 67.655H188v131.528L166.438 217H98.635L0 122z"/>
+            <path fill="url(#z)" d="M0 122h131v95H0z"/>
+            <use fill="url(#x)" transform="rotate(-45 94 94.827)" xlink:href="#A"/>
+        </g>
+    </g>
+</svg>
